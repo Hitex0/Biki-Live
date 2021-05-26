@@ -1,6 +1,6 @@
 {
     "prefix": ".",
-    "token": "ODQ1OTA4OTQxNDE0NDY1NTM2.YKn0Fw.PvMnxK3zp_XhyaZb6v16bYUWT1w",
+    "token": "process.env.BIKI_GG",
     "owners": ["614018799212953611", "351768917531688961", "551775408354230315"],
     "defaultPerms": ["SEND_MESSAGES"]
 }

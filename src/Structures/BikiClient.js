@@ -38,7 +38,7 @@ module.exports = class MenuDocsClient extends Client {
 		this.utils.loadCommands();
 		this.utils.loadEvents();
 		
-		await super.login("ODQ1OTA4OTQxNDE0NDY1NTM2.YKn0Fw.PvMnxK3zp_XhyaZb6v16bYUWT1w");
+		await super.login(process.env.BIKI_GG);
 	}
 
 };
