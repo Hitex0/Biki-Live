@@ -76,7 +76,7 @@ Hi <@${member.id}> You may read server rules <#534978166888857611>`)
         .setImage("attachment://welcome-image.png")
         .attachFiles(attachment);
       //define the welcome channel
-      const channel = member.guild.channels.cache.find(ch => ch.id === config.CHANNEL_WELCOME);
+      const channel = member.guild.channels.cache.find(ch => ch.id === "805090988925517837");
       //send the welcome embed to there
       channel.send(welcomeembed);
     })
