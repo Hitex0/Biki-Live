@@ -1,4 +1,4 @@
-const config = require("./config");
+const config = require("./config.json");
 const Canvas = require("canvas");
 const Discord = require("discord.js");
 var Font = Canvas.Font;
