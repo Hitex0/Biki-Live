@@ -13,7 +13,7 @@ module.exports = class extends Command {
 	}
 
 	async run(message, [command]) {
-		const image = "https://media.discordapp.net/attachments/805090988925517837/846789627699396608/biki_bro.png?width=840&height=473"
+		const image = "https://cdn.mee6.xyz/guild-images/726796446539448380/427de844f4a883304f389f4e44120a280ded487253cc7e1efbc0e8025367680e.gif"
 		const embed = new MessageEmbed()
 			.setColor('BLUE')
 			.setAuthor(`${message.guild.name} Help Menu`, message.guild.iconURL({ dynamic: true }))
@@ -38,8 +38,8 @@ module.exports = class extends Command {
 			return message.channel.send(embed);
 		} else {
 			embed.setDescription([
-				`These are the commands of Biki Live bot. The bot's prefix is: \`${this.client.prefix}\` `,
-				`Subscribe to Biki Live [click here](https://www.youtube.com/channel/UCj4UnidqX7S8aWUcTUV0mKA)`,
+				`These are the commands of Vitex Support bot. The bot's prefix is: \`${this.client.prefix}\` `,
+				
 			]);
 			let categories;
 			if (!this.client.owners.includes(message.author.id)) {

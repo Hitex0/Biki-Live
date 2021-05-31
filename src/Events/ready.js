@@ -16,8 +16,10 @@ module.exports = class extends Event {
 		].join('\n'));
 
 		const activities = [
-			`.help of Biki Live server`,
-			`you have subscribed to Biki Live or not👀`,
+			`.help of Vitex Community server`,
+			`You👀`,
+			`Our Paid Paid Server Please Respect❤`,
+			`Jay Nepal`,
 			`.help of ${this.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} users!`
 		];
 
