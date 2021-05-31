@@ -7,7 +7,7 @@ module.exports = class extends Command {
 		super(...args, {
 			aliases: ['wasted', 'waste', 'wd'],
 			description: 'Waste yourself',
-			category: '<:Eee:784709222399082496>__Image__'
+			category: '<:Eee:848974035522027520>__Image__'
 		});
 	}
   

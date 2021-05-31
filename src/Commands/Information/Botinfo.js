@@ -11,7 +11,7 @@ module.exports = class extends Command {
 		super(...args, {
 			aliases: ['info', 'bot'],
 			description: 'Displays information about the bot.',
-			category: '<a:what:761168875643076608>__Information__',
+			category: '<a:what:848975039859785737>__Information__',
             usage: ';botinfo',
             guildOnly: true
 		});

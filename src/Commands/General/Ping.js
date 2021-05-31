@@ -6,7 +6,7 @@ module.exports = class extends Command {
 		super(...args, {
 			aliases: ['ping'],
 			description: 'This provides the ping of the bot',
-			category: '<:amongus:758525421649920031>__General__'
+			category: '<:amongus:848974047308283914>__General__'
 		});
 	}
 

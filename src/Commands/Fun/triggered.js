@@ -7,7 +7,7 @@ module.exports = class extends Command {
 		super(...args, {
 			aliases: ['triggered', 'trigger', 'tr'],
 			description: 'Trigger yourself',
-			category: '<:Eee:784709222399082496>__Image__'
+			category: '<:Eee:848974035522027520>__Image__'
 		});
 	}
   

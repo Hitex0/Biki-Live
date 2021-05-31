@@ -7,7 +7,7 @@ module.exports = class extends Command {
 		super(...args, {
 			aliases: ['help', 'h'],
 			description: 'Displays all the commands in the bot',
-			category: '<:amongus:758525421649920031>__General__',
+			category: '<:amongus:848974047308283914>__General__',
 			usage: '[command]'
 		});
 	}
