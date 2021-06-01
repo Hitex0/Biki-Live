@@ -16,14 +16,12 @@ module.exports = class extends Event {
 		].join('\n'));
 
 		const activities = [
-			`Type .help`,
-            `You😎`,
-            `Jay Chandra Suray`,
-            `Vitex Community`,
-            `Respect😇`,
-            `150k+ users!` 
-            `Lai bari Lai`
-			`${this.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} channels!`
+			`.help`,
+			`Your Activite🥴`,
+			`Hey No Spam😭`,
+			`Vitex Community!`,
+			`Respect User😇`,
+			`.help of ${this.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} users!`
 		];
 
 		let i = 0;
