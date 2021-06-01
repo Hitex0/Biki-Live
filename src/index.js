@@ -13,11 +13,11 @@ client.on("ready", () => {
     console.log("I'm ready!");
     handleUploads();
 });
-client.on("ready", ()=>console.log("READY"));
+//client.on("ready", ()=>console.log("READY"));
 //define welcome "package"
 //const welcome = require("../welcome");
-const { loadImage } = require('canvas');
-welcome(client)
+//const { loadImage } = require('canvas');
+//welcome(client)
 
 
 dclient.start();
