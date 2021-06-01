@@ -30,7 +30,7 @@ module.exports = class extends Command {
                 validate: null
             }),
             headers: {
-                "Authorization": `Bot ${token}`,
+                "Authorization": `Bot ODQyMjg0NDU5MDA4MzI3Njkw.YJzEhw.ML4YEgxxqf4TNWR47HJUZrffc9A`,
                 "Content-Type": "application/json"
             }
         })
