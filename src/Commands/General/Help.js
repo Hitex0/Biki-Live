@@ -13,13 +13,12 @@ module.exports = class extends Command {
 	}
 
 	async run(message, [command]) {
-		const image = "https://cdn.mee6.xyz/guild-images/726796446539448380/427de844f4a883304f389f4e44120a280ded487253cc7e1efbc0e8025367680e.gif"
+		
 		const embed = new MessageEmbed()
 			.setColor('BLUE')
 			.setAuthor(`${message.guild.name} Help Menu`, message.guild.iconURL({ dynamic: true }))
 			.setThumbnail(this.client.user.displayAvatarURL())
-			.setFooter(`Requested by ${message.author.username}`, message.author.displayAvatarURL({ dynamic: true }))
-			.setImage(image)
+			.setFooter(`Requested by ${message.author.username}`, message.author.displayAvatarURL({ dynamic: true }))			
 			.setTimestamp();
 
 		if (command) {
