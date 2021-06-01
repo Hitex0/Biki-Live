@@ -4,14 +4,14 @@ module.exports = class extends Command {
 
 	constructor(...args) {
 		super(...args, {
-			aliases: ['aesthetixx'],
-			description: 'hacker of scribble',
+			aliases: ['sopo'],
+			description: 'hamero paro sopo',
 			category: '<:amongus:848974047308283914>__General__'
 		});
 	}
 
 	async run(message) {
-        message.channel.send(`<@773396032930840617> Hacker of Scribble`)
+        message.channel.send(`<@737684854963044373> Hamero Paro Cute Singer😍`)
 		
 	}
 
