@@ -35,8 +35,8 @@ module.exports = class extends Command {
 
         await member.ban();
         console.log('Ban');
-        message.channel.send(`${member} has been Kicked from the server`) 
-        member.send(`You have been kicked😡 from ${message.guild.name}Reason: ${reason}`)
+        message.channel.send(`${member} has been Ban from the server`) 
+        member.send(`You have been Ban😡 from ${message.guild.name}Reason: ${reason}`)
 	}
 
 };
