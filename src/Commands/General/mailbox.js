@@ -20,7 +20,7 @@ module.exports = class extends Command {
         message.delete();
         const sendingMessage = message.content.slice (28);
         const SendingEmbed = new MessageEmbed()
-        .setColor('RED')
+        .setColor('#FF0002')
         .setTitle(`**Vitex Community Server Alert🔔**`)
         //.setURL('')
         //.setAuthor(``, '', '')
