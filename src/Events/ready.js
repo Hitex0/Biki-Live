@@ -16,14 +16,14 @@ module.exports = class extends Event {
 		].join('\n'));
 
 		const activities = [
-			`Type .help`,
-			`Acivity🥴`,
-			`Sopo love💖`,
+			`.help📞`,
+			`Acivity📸`,
+			`Music Nepal Bot💖`,
 			`Vitex Community🌐`,
 			`Read Rules🧾`,
 			`Keep Respect😇`,
 			`104567+ users!💖`,
-			`Retard Bhoot♨️`,
+			`Your Dm♨️`,
 			
 	];
 		let i = 0;

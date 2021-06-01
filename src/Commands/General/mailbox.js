@@ -25,7 +25,7 @@ module.exports = class extends Command {
         //.setURL('')
         //.setAuthor(``, '', '')
         .setDescription(`${sendingMessage}`)
-        .setThumbnail('https://img.pngio.com/comments-inbox-message-one-message-icon-png-message-512_512.png')
+        //.setThumbnail('https://img.pngio.com/comments-inbox-message-one-message-icon-png-message-512_512.png')
         //.setImage('')
         //.setTimestamp()
        // .setFooter('Generated From vitex Bot!', 'https://cdn.discordapp.com/attachments/844295450361724929/847765572812275722/Vitex.png');
