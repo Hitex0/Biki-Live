@@ -42,7 +42,7 @@ module.exports = class extends Event {
 				if (userPermCheck) {
 					const missing = message.channel.permissionsFor(message.member).missing(userPermCheck);
 					if (missing.length) {
-						return message.reply(`You are missing ${this.client.utils.formatArray(missing.map(this.client.utils.formatPerms))} permissions, you need them to use this command!`);
+						return message.reply(`❌`);
 					}
 				}
 
