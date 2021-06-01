@@ -13,7 +13,7 @@ module.exports = class extends Command {
 		});
 	}
 
-	async run(message) {
+	async run(message, args) {
       
         const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
 
