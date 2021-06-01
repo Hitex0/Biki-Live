@@ -1,7 +1,8 @@
-const MenuDocsClient = require('../../Structures/MenuDocsClient');
+const BikiClient = require('../../Structures/BikiClient');
 const config = require('../../../config.json');
-const client = new MenuDocsClient(config);
+const client = new BikiClient(config);
 const fetch = require('node-fetch');
+
 const Command = require('../../Structures/Command');
 
 module.exports = class extends Command {
