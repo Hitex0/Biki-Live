@@ -21,7 +21,7 @@ module.exports = class extends Command {
         const sendingMessage = message.content.slice (28);
         const SendingEmbed = new MessageEmbed()
         .setColor('RED')
-        .setTitle(`**Vitex Community Server Alert🔔**!`)
+        .setTitle(`**Vitex Community Server Alert🔔**`)
         //.setURL('')
         //.setAuthor(``, '', '')
         .setDescription(`${sendingMessage}`)
