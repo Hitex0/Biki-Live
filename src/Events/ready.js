@@ -17,17 +17,17 @@ module.exports = class extends Event {
 
 		const activities = [
 			`.help📞`,
-			`Acivity📸`,
+			`Your Acivity📸`,
 			`Music Nepal Bot💖`,
 			`Vitex Community🌐`,
 			`Read Rules🧾`,
 			`Keep Respect😇`,
-			`104567+ users!💖`,
+			`104567+ Users!💖`,
 			`Your Dm♨️`,
 			
 	];
 		let i = 0;
-		setInterval(() => this.client.user.setActivity(`${activities[i++ % activities.length]}`, { type: 'WATCHING' }), 4000);
+		setInterval(() => this.client.user.setActivity(`${activities[i++ % activities.length]}`, { type: 'WATCHING' }), 3000);
 	}
 
 };
