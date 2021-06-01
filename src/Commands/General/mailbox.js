@@ -21,10 +21,10 @@ module.exports = class extends Command {
         const sendingMessage = message.content.slice (28);
         const SendingEmbed = new MessageEmbed()
         .setColor('RED')
-        .setTitle(`**Vitex Community Server Alat🔔**!`)
+        .setTitle(`**Vitex Community Server Alert🔔**!`)
         //.setURL('')
         //.setAuthor(``, '', '')
-        //.setDescription(`${sendingMessage}`)
+        .setDescription(`${sendingMessage}`)
         .setThumbnail('https://img.pngio.com/comments-inbox-message-one-message-icon-png-message-512_512.png')
         //.setImage('')
         //.setTimestamp()
