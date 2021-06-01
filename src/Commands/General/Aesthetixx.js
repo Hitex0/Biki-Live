@@ -4,7 +4,7 @@ module.exports = class extends Command {
 
 	constructor(...args) {
 		super(...args, {
-			aliases: ['who is hacker on scribble'],
+			aliases: ['aesthetixx'],
 			description: 'hacker of scribble',
 			category: '<:amongus:848974047308283914>__General__'
 		});
