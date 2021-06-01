@@ -1,4 +1,5 @@
 const Command = require('../../Structures/Command');
+const superagent = require('superagent')
 
 const { MessageEmbed } = require('discord.js')
 
