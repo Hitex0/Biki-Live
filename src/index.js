@@ -15,7 +15,7 @@ client.on("ready", () => {
 });
 client.on("ready", ()=>console.log("READY"));
 //define welcome "package"
-const welcome = require("../welcome");
+//const welcome = require("../welcome");
 const { loadImage } = require('canvas');
 welcome(client)
 
