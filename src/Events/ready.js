@@ -20,7 +20,7 @@ module.exports = class extends Event {
 			`Acivity🥴`,
 			`Sopo love💖`,
 			`Vitex Community🌐`,
-			`Read Rules🧾`
+			`Read Rules🧾`,
 			`Keep Respect😇`,
 			`104567+ users!💖`,
 			`रिटार्ड Skribble Ko Bhoot♨️`,
