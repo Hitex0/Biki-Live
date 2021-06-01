@@ -17,12 +17,13 @@ module.exports = class extends Event {
 
 		const activities = [
 			`Type .help`,
-			`You😎`,
-			`Jay Chandra Suray`,
-			`Vitex Community`,
-			`Respect😇`,
-			`150k+ users!`
-			`Man bina ko dhan`
+            `You😎`,
+            `Jay Chandra Suray`,
+            `Vitex Community`,
+            `Respect😇`,
+            `150k+ users!` 
+            `Lai bari Lai`
+			`${this.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} channels!`
 		];
 
 		let i = 0;
