@@ -23,7 +23,7 @@ module.exports = class extends Event {
 			`Read Rules🧾`,
 			`Keep Respect😇`,
 			`104567+ users!💖`,
-			`रिटार्ड Skribble Ko Bhoot♨️`,
+			`Retard Bhoot♨️`,
 			
 	];
 		let i = 0;
