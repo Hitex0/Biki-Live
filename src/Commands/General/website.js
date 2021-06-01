@@ -11,7 +11,7 @@ module.exports = class extends Command {
 	}
 
 	async run(message) {
-        message.channel.send(`<@737684854963044373> Hamero Paro Cute Singer😍`)
+        message.channel.send(`http://vitex-community.weebly.com/`)
 		
 	}
 
