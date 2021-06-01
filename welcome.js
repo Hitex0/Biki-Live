@@ -68,15 +68,15 @@ module.exports = function (client) {
       const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'welcome-image.png');
       //define the welcome embed
       const welcomeembed = new Discord.MessageEmbed()
-        .setAuthor("〢Biki Roaster〢", 'https://cdn.discordapp.com/attachments/805090988925517837/846759551055298640/logo.png')
+        .setAuthor("〢Vitex〢", 'https://cdn.discordapp.com/attachments/844295450361724929/847765572812275722/Vitex.png')
         .setColor("RANDOM")
         .setTimestamp()
         .setDescription(`**Welcome to ${member.guild.name}!**
-Hi <@${member.id}> You may read server rules <#534978166888857611>`)
+Hi <@${member.id}> You may read server rules <#731686233243385897>`)
         .setImage("attachment://welcome-image.png")
         .attachFiles(attachment);
       //define the welcome channel
-      const channel = member.guild.channels.cache.find(ch => ch.id === "805090988925517837");
+      const channel = member.guild.channels.cache.find(ch => ch.id === "846090260496515102");
       //send the welcome embed to there
       channel.send(welcomeembed);
     })
