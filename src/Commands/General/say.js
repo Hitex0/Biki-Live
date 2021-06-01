@@ -10,7 +10,7 @@ module.exports = class extends Command {
 		});
 	}
 
-	async run(message) {
+	async run(message, args) {
 		if(!message.member.permissions.has("MANAGE_MESSAGES")) return message.channel.send('You dont have permission for this command.');
         if (!args[0]) return message.reply("Please specify message that bot should say.")
         let msg;

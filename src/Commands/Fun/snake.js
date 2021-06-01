@@ -17,7 +17,7 @@ module.exports = class extends Command {
             title: 'Snake Game',
             color: "BLUE",
             timestamp: true,
-            gameOverTitle: ":DG_amongus:Game Over"
+            gameOverTitle: "Game Over"
         });
         
         return snakeGame.newGame(message)
