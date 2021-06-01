@@ -1,3 +1,4 @@
+const { MessageEmbed } = require('discord.js');
 const Command = require('../../Structures/Command');
 
 module.exports = class extends Command {
@@ -16,7 +17,7 @@ module.exports = class extends Command {
         if (mention == null) { return; }
         message.delete();
         const sendingMessage = message.content.slice (28);
-        const SendingEmbed = new Discord.MessageEmbed()
+        const SendingEmbed = new MessageEmbed()
         .setColor('#0099ff')
         .setTitle(`You Have a New Message From **${message.guild.name} Server**!`)
         .setURL('')
