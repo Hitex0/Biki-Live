@@ -16,11 +16,13 @@ module.exports = class extends Event {
 		].join('\n'));
 
 		const activities = [
-			`.help of Vitex Community server`,
-			`You👀`,
-			`Our Paid Paid Server Please Respect❤`,
-			`Jay Nepal`,
-			`.help of ${this.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} users!`
+			`Type .help`,
+			`You😎`,
+			`Jay Chandra Suray`,
+			`Vitex Community`,
+			`Respect😇`,
+			`150k+ users!`
+			`Man bina ko dhan`
 		];
 
 		let i = 0;
