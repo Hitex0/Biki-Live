@@ -11,7 +11,7 @@ module.exports = class extends Command {
 	}
 
 	async run(message) {
-        message.channel.send(`${mention}Paid Respect😇`)
+        message.channel.send(`${message.author.tag} Paid Respect😇`)
 		
 	}
 
