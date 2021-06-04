@@ -4,7 +4,7 @@ module.exports = class extends Command {
 
 	constructor(...args) {
 		super(...args, {
-			aliases: ['invitelink'],
+			aliases: ['discord'],
 			description: 'invite discord server link',
 			category: '<:amongus:848974047308283914>__General__'
 		});
