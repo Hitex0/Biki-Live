@@ -11,7 +11,7 @@ module.exports = class extends Command {
 	}
 
 	async run(message) {
-        message.channel.send(`@${message.guild.name} Paid Respect😇`)
+        message.channel.send(`You Paid Respect😇`)
 		
 	}
 
